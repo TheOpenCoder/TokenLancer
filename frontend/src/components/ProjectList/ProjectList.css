@@ -1,0 +1,21 @@
+/* .project-list {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 10px;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, 300px);
+
+} */
+.project-list {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
